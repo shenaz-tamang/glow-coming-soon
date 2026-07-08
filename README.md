@@ -1,0 +1,1 @@
+Upload this folder to Cloudflare Pages. Replace placeholder phone numbers and add your logo.
