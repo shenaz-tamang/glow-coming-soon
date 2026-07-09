@@ -1,0 +1,55 @@
+body{
+    font-family:Arial,sans-serif;
+    margin:0;
+    background-size: cover;
+    background-position: center; /* keeps image centered */
+    background-repeat: no-repeat; /* prevents tiling */
+    opacity: 0.9; /* 70% visible */
+    color:#333
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+  }
+  
+.hero{
+    
+    text-align:center;
+}
+h1{
+    color:#0f766e
+}
+h2{
+    color:#0f766e
+}
+.buttons a{
+    display:inline-block;
+    margin:8px;
+    padding:12px 18px;
+    background:#c8a86b;
+    color:#fff;
+    text-decoration:none;
+    border-radius:8px
+}
+section{
+    max-width:900px;
+    margin:auto;
+    padding:20px
+}
+footer{
+    text-align:center;
+    padding:30px
+}
+/* Responsive background image */
+
+  /* Optional: fine-tune for smaller screens */
+  @media (max-width: 768px) {
+    .header {
+      background-size: contain; /* ensures full image is visible */
+      background-position: top center; /* adjust position for mobile */
+    }
+  }
+ 
+  
